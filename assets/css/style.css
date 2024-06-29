@@ -6,6 +6,19 @@
   height: auto;
   overflow: hidden;
   /* display: inline-block; */
+
+
+
+.logo-container {
+    text-align: center; /* Centers the content of each column */
+  }
+.logo-container img {
+    margin: auto; /* Centers the image horizontally */
+    display: block; /* Makes sure the image is block-level for margin auto to work */
+  }
+.logo-container p {
+    margin: 0; /* Removes default paragraph margin */
+  }
   
   
   /* background-size: cover;  */
